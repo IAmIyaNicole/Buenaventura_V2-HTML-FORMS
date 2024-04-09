@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <i class="fa-duotone fa-cup-straw"></i>
+        <p>Frappe<span>TEA</span>ria</p>
+      </div>
+
+      <nav>
+        <ul class="nav_menu">
+          <li><a href="" class="nav_link">Home</a></li>
+          <li><a href="" class="nav_link">Speciality</a></li>
+          <li><a href="" class="nav_link">Popular</a></li>
+          <li><a href="" class="nav_link">Gallery</a></li>
+          <li><a href="" class="nav_link btn">Order</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="left">
+          <h1>Food made <br />with Love</h1>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <a href="" class="btn">Order now</a>
+        </div>
+        <div class="right">
+          <img
+            src="frappe-drink-with-caramel-nuts-isolated-white-background-ai-generative.jpg"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="gallery">
+        <h2>Our speciality</h2>
+        <div>
+          <img src="image.jpg" alt="" />
+        </div>
+      </section>
+
+      <section class="order">
+        <h3>Place your order here</h3>
+
+        <form action="">
+          <div class="input-form">
+            <label for="name">Name </label>
+            <input id="name" type="text" />
+          </div>
+          <div class="input-form">
+            <label for="Email">Email</label>
+            <input id="Email" type="email" />
+          </div>
+          <div class="input-form">
+            <label for="Number"> Cellphone Number </label>
+            <input id="Number" type="text" />
+          </div>
+          <div class="input-form">
+            <label for="Address"> Address </label>
+            <input id="Address" type="text" />
+          </div>
+
+          <div class="optionsForms">
+            <span>Select options</span>
+            <div class="input-form">
+              <input class="radio" type="radio" name="Option1" id="option1"   /> GCASH
+            </div>
+            <div class="input-form">
+              <input class="radio" type="radio" name="Option1" id="option2" /> CASH ON DELIVERY
+            </div>
+            <div class="input-form">
+              <input  class="radio" type="radio" name="Option1" id="option3" /> CASH
+            </div>
+          </div>
+
+          <div class="drop-form">
+            <a id="dropdown-button">Dropdown <span>&#9662;</span></a>
+            <ul id="dropdown-menu">
+              <li>LATTE
+                <ul class="submenu">
+                  <li>LATTE</li>
+                  <li>MOCHA LATTE</li>
+                  <li>PUMPKIN SPICE LATTE</li>
+                  <li>CARAMEL LATTE</li>
+                  <li>HAZELNUT</li>
+                </ul>
+              </li>
+              <li>GLAZE
+               
+              </li>
+              <li>HOT COFFEE</li>
+            </ul>
+          </div>
+
+          <div class="input-form">
+            <label for="Message">Message</label>
+            <textarea id="Message"></textarea>
+          </div>
+          <div class="input-form">
+            <button type="submit" id="submit-button">Submit</button>
+            <button type="button" id="cancel-button">Cancel</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
